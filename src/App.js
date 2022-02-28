@@ -4,7 +4,10 @@ import Restaurants from "./components/Restaurants";
 
 function App() {
   return (
-    <header>
+    <header style={{ textAlign: "center", fontSize: "x-large" }}>
+      <ul>
+        <b>Rate Your Favorites:</b>
+      </ul>
       <Restaurants />
     </header>
   );
